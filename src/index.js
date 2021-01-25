@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from './styles.module.css'
+import React  from 'react';
+import { RenderForm } from './components/renderform/RenderForm';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+
+export { RenderForm };
